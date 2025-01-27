@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Glasgow Scale</title>
+</head>
+
+<body>
+    <nav>
+        <p class="title"> Glasgow Coma Scale</p>
+    </nav>
+
+    <main>
+        <div class="main-container">
+            <div class="items-main-container">
+                <div class="item-container">
+                    <div class="img-container">
+                        <p class="item-titles">Eye Opening Response</p>
+                        <img src="assets/eye.jpg" alt="Eye opnening response">
+                    </div>
+
+                    <div class="eye-response-score btn-container">
+                        <ul>
+                            <li>
+                                <button class="btn">
+                                    Spontaneous
+                                </button>
+
+                                <span class="btn-score">
+                                    + 4
+                                </span>
+                            </li>
+
+                            <li>
+                                <button class="btn">
+                                    To verbal command
+                                </button>
+                                <span class="btn-score">
+                                    + 3
+                                </span>
+                            </li>
+
+                            <li>
+                                <button class="btn">
+                                    To pain
+                                </button>
+                                <span class="btn-score">
+                                    + 2
+                                </span>
+                            </li>
+
+                            <li>
+                                <button class="btn none-btn">
+                                    None
+                                </button>
+                                <span class="btn-score">
+                                    + 1
+                                </span>
+                            </li>
+
+                            <li>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="separator"></div>
+
+                <div class="item-container">
+                    <div class="img-container">
+                        <p class="item-titles">Verbal Response</p>
+                        <img src="assets/speak.jpg" alt="Verbal response">
+                    </div>
+
+                    <div class="verbal-response-score btn-container">
+                        <ul>
+                            <li>
+                                <button class="btn">
+                                    Oriented
+                                </button>
+                                <span class="btn-score">
+                                    + 5
+                                </span>
+                            </li>
+
+                            <li>
+                                <button class="btn">
+                                    Confused
+                                </button>
+                                <span class="btn-score">
+                                    + 4
+                                </span>
+                            </li>
+
+                            <li>
+                                <button class="btn">
+                                    Inappropriate words
+                                </button>
+                                <span class="btn-score">
+                                    + 3
+                                </span>
+                            </li>
+
+                            <li>
+                                <button class="btn">
+                                    Incomprehensible
+                                </button>
+                                <span class="btn-score">
+                                    + 2
+                                </span>
+                            </li>
+
+                            <li>
+                                <button class="btn none-btn">
+                                    None
+                                </button>
+                                <span class="btn-score">
+                                    + 1
+                                </span>
+                            </li>
+
+                        </ul>
+
+
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="separator"></div>
+
+                <div class="item-container">
+                    <div class="img-container">
+                        <p class="item-titles">Motor Response</p>
+                        <img src="assets/arm.png" alt="Motor response">
+                    </div>
+
+                    <div class="motor-response-score btn-container">
+                        <ul>
+                            <li>
+                                <button class="btn">
+                                    Obeys commands
+                                </button>
+                                <span class="btn-score">
+                                    + 6
+                                </span>
+                            </li>
+
+                            <li>
+                                <button class="btn">
+                                    Localizes pain
+                                </button>
+
+                                <span class="btn-score">
+                                    + 5
+                                </span>
+
+                            </li>
+
+                            <li>
+                                <button class="btn">
+                                    Withdraws from pain
+                                </button>
+                                <span class="btn-score">
+                                    + 4
+                                </span>
+                            </li>
+
+                            <li>
+                                <button class="btn">
+                                    Decorticate
+                                </button>
+                                <span class="btn-score">
+                                    + 3
+                                </span>
+                            </li>
+
+                            <li>
+                                <button class="btn">
+                                    Decerebrate
+                                </button>
+                                <span class="btn-score">
+                                    + 2
+                                </span>
+                            </li>
+
+                            <li>
+                                <button class="btn none-btn">
+                                    None
+                                </button>
+                                <span class="btn-score">
+                                    + 1
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+        <div class="results">
+            <p>Score</p>
+            <div>
+                <div>
+                    <p>Eye Opening Response: </p>
+                    <p id="eye" class="item-score"></p>
+
+                    <p>Verbal Response: </p>
+                    <p id="verbal" class="item-score"></p>
+
+                    <p>Motor Response: </p>
+                    <p id="motor" class="item-score"></p>
+
+                    <p id="total" class="total-score">Total: </p>
+                </div>
+                <div class="tbi-score">
+                    <ul>
+                        <li>Mild TBI: GCS 13 to 15</li>
+                        <li>Moderate TBI: GCS 9 to 12</li>
+                        <li>Severe TBI: GCS 3 to 8</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
